@@ -5,7 +5,7 @@ USER="robindiddams"
 HOME="/home/$USER"
 ALIAS_FILE="$HOME/.bash_aliases"
 
-apt update && apt install -y htop curl vim figlet
+apt update && apt install -y htop curl vim figlet fastfetch
 mkdir -p $HOME/.ssh
 
 # check if authorized_keys exists and if not create it as user
